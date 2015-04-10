@@ -250,10 +250,10 @@ footer {
 	#photos li {
 		width:100%;
 	}
-	nav {display: none;}
+	nav {display:none;}
 	}
 	.responsive-menu {
-	display: block;
+	display:block;
 	}
 }
 
@@ -279,7 +279,6 @@ footer {
 	font-weight: 200;
 	vertical-align: middle;
 	z-index: 99;
-	display: none;
 }
  
 .menu-btn span {
