@@ -77,9 +77,13 @@ h1 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+<<<<<<< HEAD
 	padding: 175px;
 	padding-top: 250px;
 	padding-bottom: 200px;
+=======
+	padding: 250px 175px 200px;
+>>>>>>> parent of cdc91c6... Merge pull request #30 from jhumbrac/patch-30
 	margin: auto;
 }
 
@@ -296,4 +300,41 @@ footer {
 .expand {
 	display: block !important; 
 }
+<<<<<<< HEAD
+=======
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+@media only screen and (min-width:500px) and (max-width: 832px) {
+	#photos li {
+		width:50%;
+	}
+	.mobile-nav {
+		display: block;
+		position: fixed, top:0, left:0, right:0;
+	}
+	nav {display: none;}
+	#splash {
+		padding:250px 0 200px;
+	}
+}
+@media only screen and (min-width:320px) and (max-width: 499px) {
+	.mobile-nav {
+		display: block;
+		position: fixed; top:0; left:0; right:0;
+	}
+	#photos li {
+		width:100%;
+	}
+	nav {display: none;}
+	}
+	#splash {
+		padding:250px 0 200px;
+	}
+}
+>>>>>>> parent of cdc91c6... Merge pull request #30 from jhumbrac/patch-30
 
